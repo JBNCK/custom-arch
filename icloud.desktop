@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Name=iCloud
+Exec=epiphany --application-mode=icloud.desktop https://www.icloud.com
+Icon=icloud
+
