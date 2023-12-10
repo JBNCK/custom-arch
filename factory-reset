@@ -97,6 +97,7 @@ systemctl enable gdm.service
 # Clean up and prompt for reboot
 echo "Cleaning up..."
 rm -rf /tmp/*
+echo "ProDesk" > /etc/hostname
 clear
 read -p "Factory reset complete. Press Enter to reboot the system..."
 reboot
